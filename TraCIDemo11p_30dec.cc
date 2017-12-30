@@ -147,6 +147,19 @@ void TraCIDemo11p::onWSM(WaveShortMessage* wsm) {
                 EV<<event->getName();
                 EV<<"   ";
                 EV<<wsm->getName();
+
+               //cancelEvent(event);
+
+                //delete(event);
+
+                // deleting message from queue
+                cEvent *removedEvent=heap->remove(event);
+                i=i-1;
+                length=heap->getLength();
+                //cancelAndDelete(event);
+                EV<<"Removed event";
+                EV<<removedEvent;
+
             }
         }
 
