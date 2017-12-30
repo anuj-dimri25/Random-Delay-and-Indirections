@@ -3,8 +3,8 @@ Preserving privacy of the users using random delays and indirections. The random
 
 # To run network simulator-
 
-cd /Users/anujdimri/Downloads/simulations/hello-sumo/omnetpp-5.1.1
-. setenv
+cd /Users/anujdimri/Downloads/simulations/hello-sumo/omnetpp-5.1.1 <br />
+. setenv <br />
 omnetpp
 
 # To run vehicle simulator via veins
