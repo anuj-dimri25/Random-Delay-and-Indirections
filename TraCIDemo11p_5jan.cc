@@ -197,7 +197,11 @@ void TraCIDemo11p::onWSM(WaveShortMessage* wsm) {
    //}
 
     //else{
-    std::string pre=" ";
+
+    if(intuniform(1,10)>7)
+    {
+        std::string pre=" ";
+
            //std::string result =  (const char *)c;
           std::stringstream ss;
 
@@ -220,7 +224,7 @@ void TraCIDemo11p::onWSM(WaveShortMessage* wsm) {
     //scheduleAt(simTime()+cc,wsm->dup());
         //scheduleAt(simTime()+cc,wsm1);
         sendDelayedDown(wsm1,cc);
-
+    }
         //delete(wsm);
         //sendDown(wsm->dup());
     //}
@@ -401,7 +405,7 @@ void TraCIDemo11p::handlePositionUpdate(cObject* obj) {
     ss<<c<<"-"<<pre;
     std::string result=ss.str();
 
-    if (c<2)
+    if (c<20)
     {
     WaveShortMessage* wsm = new WaveShortMessage(result.c_str());
     c=c+1;
