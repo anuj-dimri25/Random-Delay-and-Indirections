@@ -413,7 +413,7 @@ void TraCIDemo11p::handlePositionUpdate(cObject* obj) {
     std::pair<double,double> coordTraCI = traci->getTraCIXY(mobility->getCurrentPosition());
     EV<<"ANUJ4c"<<coordTraCI.first<<" "<<coordTraCI.second;
 
-
+     static simtime_t previous_msg_generated=0;
     // data being created every second as this function is called every second
     static int c=0;
     std::string pre="id ";
@@ -422,9 +422,11 @@ void TraCIDemo11p::handlePositionUpdate(cObject* obj) {
 
     ss<<c<<"-"<<pre;
     std::string result=ss.str();
-
-    if (c<20)
+    EV<<"time difference "<<simTime()-previous_msg_generated;
+    if ((c<20) && (simTime()-previous_msg_generated>5))
     {
+        EV<<"anuj new msg generated";
+        previous_msg_generated = simTime();
     WaveShortMessage* wsm = new WaveShortMessage(result.c_str());
     c=c+1;
     populateWSM(wsm);
