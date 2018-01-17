@@ -1,0 +1,15 @@
+<routes>
+        <vType id="typePassenger" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+        <vType id="typeBus" accel="0.8" decel="4.5" sigma="0.5" length="10" minGap="3" maxSpeed="25" guiShape="bus"/>
+
+        <route id="r1" edges="02 26 69 97 78 85 54" />
+        <route id="r2"  edges="52 20 03 36 62 27" />
+        <route id="r3"  edges="40 03 36 62 27 79 96 62 20 04 45 58 87 72" />
+        <route id="down-right" edges="4i 2o" />
+        <route id="down-down"  edges="4i 3o" />
+    <vehicle id="0" type="typePassenger" route="r1" depart="0" />
+    <vehicle id="1" type="typeBus" route="r2" depart="1" />
+    <vehicle id="2" type="typePassenger" route="r3" depart="2" />
+
+
+</routes>    
