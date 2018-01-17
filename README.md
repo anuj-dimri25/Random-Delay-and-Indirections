@@ -11,3 +11,7 @@ omnetpp
 
 /Users/anujdimri/Downloads/veins-veins-4.6/sumo-launchd.py -vv -c sumo-gui
 
+# Execute the following file
+
+/veins/example/veins/omnetpp.ini
+
