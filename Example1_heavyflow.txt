@@ -1,0 +1,3 @@
+1-id RSUExampleScenario.node[1].appl.4-id  RSUExampleScenario.node[15].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[15].veinsmobility 45.055207974707
+1-id RSUExampleScenario.node[1].appl.24-id  RSUExampleScenario.node[58].veinsmobility 114.054679419203
+1-id RSUExampleScenario.node[1].appl.26-id  RSUExampleScenario.node[45].veinsmobility 124.054684342279

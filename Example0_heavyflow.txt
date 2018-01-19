@@ -1,0 +1,6 @@
+0-id RSUExampleScenario.node[0].appl.5-id  RSUExampleScenario.node[20].veinsmobility 39.05468155666
+0-id RSUExampleScenario.node[0].appl.10-id  RSUExampleScenario.node[40].veinsmobility 62.054675495135
+0-id RSUExampleScenario.node[0].appl.11-id  RSUExampleScenario.node[40].veinsmobility 63.054688495135
+0-id RSUExampleScenario.node[0].appl.15-id  RSUExampleScenario.node[4].veinsmobility RSUExampleScenario.node[22].veinsmobility 82.054921942429
+0-id RSUExampleScenario.node[0].appl.17-id  RSUExampleScenario.node[22].veinsmobility 88.054722096439
+0-id RSUExampleScenario.node[0].appl.25-id  RSUExampleScenario.node[63].veinsmobility 121.054665582297
