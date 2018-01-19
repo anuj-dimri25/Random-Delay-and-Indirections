@@ -1,0 +1,399 @@
+<routes>
+        <vType id="typePassengerC" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="25" guiShape="passenger" color="1,0,0" />
+        <vType id="typeBusC" accel="0.8" decel="4.5" sigma="0.5" length="10" minGap="3" maxSpeed="25" guiShape="bus" color="1,0,0" />
+        
+        <vType id="typePassenger" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="25" guiShape="passenger"/>
+        <vType id="typeBus" accel="0.8" decel="4.5" sigma="0.5" length="10" minGap="3" maxSpeed="25" guiShape="bus"/>
+        
+
+        <route id="r1" edges="11-4 4-0 0-2 2-6 6-15 15-14 14-3 3-6 6-9 9-7 7-8 8-19 19-10 10-18 18-17" />
+        <route id="r2"  edges="13-12 12-3 3-0 0-4 4-5 5-2 2-6 6-3 3-14 14-15 15-16 16-9 9-7 7-8 8-19 19-10 10-7 7-2 2-5 5-4 4-11" />
+        <route id="r3"  edges="16-9 9-7 7-8 8-5 5-4 4-0 0-3 3-14 14-15 15-6 6-2 2-5 5-4 4-11 11-1 1-0 0-3 3-12 12-13 13-14 14-3 3-6 6-9 9-18 18-10 10-19" />
+        
+        <route id="1-up-down" edges="11-1 1-12 12-13" />
+        <route id="2-up-down" edges="4-0 0-3 3-14" />
+        <route id="3-up-down" edges="5-2 2-6 6-15" />
+        <route id="4-up-down" edges="8-7 7-9 9-16" />
+        <route id="5-up-down" edges="19-10 10-18 18-17" />
+        
+        <route id="1-down-up" edges="13-12 12-1 1-11" />
+        <route id="2-down-up" edges="14-3 3-0 0-4" />
+        <route id="3-down-up" edges="15-6 6-2 2-5" />
+        <route id="4-down-up" edges="16-9 9-7 7-8" />
+        <route id="5-down-up" edges="17-18 18-10 10-19" />
+        
+        <route id="1-left-right" edges="11-4 4-5 5-8 8-19" />
+        <route id="2-left-right" edges="1-0 0-2 2-7 7-10" />
+        <route id="3-left-right" edges="12-3 3-6 6-9 9-18" />
+        <route id="4-left-right" edges="13-14 14-15 15-16 16-17" />
+        
+        <route id="1-right-left" edges="19-8 8-5 5-4 4-11" />
+        <route id="2-right-left" edges="10-7 7-2 2-0 0-1" />
+        <route id="3-right-left" edges="18-9 9-6 6-3 3-12" />
+        <route id="4-right-left" edges="17-16 16-15 15-14 14-13" />
+        
+        
+        
+        
+        
+        
+    <vehicle id="0" type="typePassengerC" route="r1" depart="0" />
+    <vehicle id="1" type="typeBusC" route="r2" depart="1" />
+    <vehicle id="2" type="typePassengerC" route="r3" depart="1" />
+    
+    
+    <vehicle id="3" type="typePassenger" route="1-up-down" depart="2" />
+    <vehicle id="4" type="typeBus" route="2-up-down" depart="2" />
+    <vehicle id="5" type="typePassenger" route="3-up-down" depart="2" />
+    <vehicle id="6" type="typeBus" route="4-up-down" depart="2" />
+    <vehicle id="7" type="typePassenger" route="5-up-down" depart="2" />
+    
+    <vehicle id="8" type="typePassenger" route="1-left-right" depart="3" />
+    <vehicle id="9" type="typePassenger" route="2-left-right" depart="3" />
+    <vehicle id="10" type="typePassenger" route="3-left-right" depart="3" />
+    <vehicle id="11" type="typePassenger" route="4-left-right" depart="3" />
+    
+    <vehicle id="12" type="typePassenger" route="1-right-left" depart="4" />
+    <vehicle id="13" type="typePassenger" route="2-right-left" depart="4" />
+    <vehicle id="14" type="typePassenger" route="3-right-left" depart="4" />
+    <vehicle id="15" type="typePassenger" route="4-right-left" depart="4" />
+    
+    <vehicle id="16" type="typePassenger" route="1-down-up" depart="5" />
+    <vehicle id="17" type="typePassenger" route="2-down-up" depart="5" />
+    <vehicle id="18" type="typePassenger" route="3-down-up" depart="5" />
+    <vehicle id="19" type="typePassenger" route="4-down-up" depart="5" />
+    <vehicle id="20" type="typePassenger" route="5-down-up" depart="5" />
+    
+    
+    
+    
+    
+    
+    <vehicle id="21" type="typePassenger" route="1-up-down" depart="15" />
+    <vehicle id="22" type="typeBus" route="2-up-down" depart="15" />
+    <vehicle id="23" type="typePassenger" route="3-up-down" depart="15" />
+    <vehicle id="24" type="typeBus" route="4-up-down" depart="15" />
+    <vehicle id="25" type="typePassenger" route="5-up-down" depart="15" />
+    
+    <vehicle id="26" type="typePassenger" route="1-left-right" depart="16" />
+    <vehicle id="27" type="typePassenger" route="2-left-right" depart="17" />
+    <vehicle id="28" type="typePassenger" route="3-left-right" depart="17" />
+    <vehicle id="29" type="typePassenger" route="4-left-right" depart="17" />
+    
+    <vehicle id="30" type="typePassenger" route="1-right-left" depart="17" />
+    <vehicle id="31" type="typePassenger" route="2-right-left" depart="17" />
+    <vehicle id="32" type="typePassenger" route="3-right-left" depart="18" />
+    <vehicle id="33" type="typePassenger" route="4-right-left" depart="18" />
+    
+    <vehicle id="34" type="typePassenger" route="1-down-up" depart="19" />
+    <vehicle id="35" type="typePassenger" route="2-down-up" depart="19" />
+    <vehicle id="36" type="typePassenger" route="3-down-up" depart="19" />
+    <vehicle id="37" type="typePassenger" route="4-down-up" depart="20" />
+    <vehicle id="38" type="typePassenger" route="5-down-up" depart="20" />
+    
+    
+    
+    
+    <vehicle id="39" type="typePassenger" route="1-up-down" depart="35" />
+    <vehicle id="40" type="typeBus" route="2-up-down" depart="35" />
+    <vehicle id="41" type="typePassenger" route="3-up-down" depart="35" />
+    <vehicle id="42" type="typeBus" route="4-up-down" depart="35" />
+    <vehicle id="43" type="typePassenger" route="5-up-down" depart="35" />
+    
+    <vehicle id="44" type="typePassenger" route="1-left-right" depart="36" />
+    <vehicle id="45" type="typePassenger" route="2-left-right" depart="37" />
+    <vehicle id="46" type="typePassenger" route="3-left-right" depart="37" />
+    <vehicle id="47" type="typePassenger" route="4-left-right" depart="37" />
+    
+    <vehicle id="48" type="typePassenger" route="1-right-left" depart="37" />
+    <vehicle id="49" type="typePassenger" route="2-right-left" depart="37" />
+    <vehicle id="50" type="typePassenger" route="3-right-left" depart="38" />
+    <vehicle id="51" type="typePassenger" route="4-right-left" depart="38" />
+    
+    <vehicle id="52" type="typePassenger" route="1-down-up" depart="39" />
+    <vehicle id="53" type="typePassenger" route="2-down-up" depart="39" />
+    <vehicle id="54" type="typePassenger" route="3-down-up" depart="39" />
+    <vehicle id="55" type="typePassenger" route="4-down-up" depart="40" />
+    <vehicle id="56" type="typePassenger" route="5-down-up" depart="40" />
+    
+    
+    
+    
+    
+    <vehicle id="57" type="typePassenger" route="1-up-down" depart="55" />
+    <vehicle id="58" type="typeBus" route="2-up-down" depart="55" />
+    <vehicle id="59" type="typePassenger" route="3-up-down" depart="55" />
+    <vehicle id="60" type="typeBus" route="4-up-down" depart="55" />
+    <vehicle id="61" type="typePassenger" route="5-up-down" depart="55" />
+    
+    <vehicle id="62" type="typePassenger" route="1-left-right" depart="56" />
+    <vehicle id="63" type="typePassenger" route="2-left-right" depart="57" />
+    <vehicle id="64" type="typePassenger" route="3-left-right" depart="57" />
+    <vehicle id="65" type="typePassenger" route="4-left-right" depart="57" />
+    
+    <vehicle id="66" type="typePassenger" route="1-right-left" depart="57" />
+    <vehicle id="67" type="typePassenger" route="2-right-left" depart="57" />
+    <vehicle id="68" type="typePassenger" route="3-right-left" depart="58" />
+    <vehicle id="69" type="typePassenger" route="4-right-left" depart="58" />
+    
+    <vehicle id="70" type="typePassenger" route="1-down-up" depart="59" />
+    <vehicle id="71" type="typePassenger" route="2-down-up" depart="59" />
+    <vehicle id="72" type="typePassenger" route="3-down-up" depart="59" />
+    <vehicle id="73" type="typePassenger" route="4-down-up" depart="60" />
+    <vehicle id="74" type="typePassenger" route="5-down-up" depart="60" />
+    
+    
+    
+    
+    <vehicle id="75" type="typePassenger" route="1-up-down" depart="85" />
+    <vehicle id="76" type="typeBus" route="2-up-down" depart="85" />
+    <vehicle id="77" type="typePassenger" route="3-up-down" depart="85" />
+    <vehicle id="78" type="typeBus" route="4-up-down" depart="85" />
+    <vehicle id="79" type="typePassenger" route="5-up-down" depart="85" />
+    
+    <vehicle id="80" type="typePassenger" route="1-left-right" depart="86" />
+    <vehicle id="81" type="typePassenger" route="2-left-right" depart="87" />
+    <vehicle id="82" type="typePassenger" route="3-left-right" depart="87" />
+    <vehicle id="83" type="typePassenger" route="4-left-right" depart="87" />
+    
+    <vehicle id="84" type="typePassenger" route="1-right-left" depart="87" />
+    <vehicle id="85" type="typePassenger" route="2-right-left" depart="87" />
+    <vehicle id="86" type="typePassenger" route="3-right-left" depart="88" />
+    <vehicle id="87" type="typePassenger" route="4-right-left" depart="88" />
+    
+    <vehicle id="88" type="typePassenger" route="1-down-up" depart="89" />
+    <vehicle id="89" type="typePassenger" route="2-down-up" depart="89" />
+    <vehicle id="90" type="typePassenger" route="3-down-up" depart="89" />
+    <vehicle id="91" type="typePassenger" route="4-down-up" depart="90" />
+    <vehicle id="92" type="typePassenger" route="5-down-up" depart="90" />
+    
+    
+    
+    
+    
+    <vehicle id="93" type="typePassenger" route="1-up-down" depart="125" />
+    <vehicle id="94" type="typeBus" route="2-up-down" depart="125" />
+    <vehicle id="95" type="typePassenger" route="3-up-down" depart="125" />
+    <vehicle id="96" type="typeBus" route="4-up-down" depart="125" />
+    <vehicle id="97" type="typePassenger" route="5-up-down" depart="125" />
+    
+    <vehicle id="98" type="typePassenger" route="1-left-right" depart="126" />
+    <vehicle id="99" type="typePassenger" route="2-left-right" depart="127" />
+    <vehicle id="100" type="typePassenger" route="3-left-right" depart="127" />
+    <vehicle id="101" type="typePassenger" route="4-left-right" depart="127" />
+    
+    <vehicle id="102" type="typePassenger" route="1-right-left" depart="127" />
+    <vehicle id="103" type="typePassenger" route="2-right-left" depart="127" />
+    <vehicle id="104" type="typePassenger" route="3-right-left" depart="128" />
+    <vehicle id="105" type="typePassenger" route="4-right-left" depart="128" />
+    
+    <vehicle id="106" type="typePassenger" route="1-down-up" depart="129" />
+    <vehicle id="107" type="typePassenger" route="2-down-up" depart="129" />
+    <vehicle id="108" type="typePassenger" route="3-down-up" depart="129" />
+    <vehicle id="109" type="typePassenger" route="4-down-up" depart="130" />
+    <vehicle id="110" type="typePassenger" route="5-down-up" depart="130" />
+    
+    
+    
+    
+    <vehicle id="111" type="typePassenger" route="1-up-down" depart="165" />
+    <vehicle id="112" type="typeBus" route="2-up-down" depart="165" />
+    <vehicle id="113" type="typePassenger" route="3-up-down" depart="165" />
+    <vehicle id="114" type="typeBus" route="4-up-down" depart="165" />
+    <vehicle id="115" type="typePassenger" route="5-up-down" depart="165" />
+    
+    <vehicle id="116" type="typePassenger" route="1-left-right" depart="166" />
+    <vehicle id="117" type="typePassenger" route="2-left-right" depart="167" />
+    <vehicle id="118" type="typePassenger" route="3-left-right" depart="167" />
+    <vehicle id="119" type="typePassenger" route="4-left-right" depart="167" />
+    
+    <vehicle id="120" type="typePassenger" route="1-right-left" depart="167" />
+    <vehicle id="121" type="typePassenger" route="2-right-left" depart="167" />
+    <vehicle id="122" type="typePassenger" route="3-right-left" depart="168" />
+    <vehicle id="123" type="typePassenger" route="4-right-left" depart="168" />
+    
+    <vehicle id="124" type="typePassenger" route="1-down-up" depart="169" />
+    <vehicle id="125" type="typePassenger" route="2-down-up" depart="169" />
+    <vehicle id="126" type="typePassenger" route="3-down-up" depart="169" />
+    <vehicle id="127" type="typePassenger" route="4-down-up" depart="170" />
+    <vehicle id="128" type="typePassenger" route="5-down-up" depart="170" />
+    
+    
+    
+    
+    <vehicle id="129" type="typePassenger" route="1-up-down" depart="235" />
+    <vehicle id="130" type="typeBus" route="2-up-down" depart="235" />
+    <vehicle id="131" type="typePassenger" route="3-up-down" depart="235" />
+    <vehicle id="132" type="typeBus" route="4-up-down" depart="235" />
+    <vehicle id="133" type="typePassenger" route="5-up-down" depart="235" />
+    
+    <vehicle id="134" type="typePassenger" route="1-left-right" depart="236" />
+    <vehicle id="135" type="typePassenger" route="2-left-right" depart="237" />
+    <vehicle id="136" type="typePassenger" route="3-left-right" depart="237" />
+    <vehicle id="137" type="typePassenger" route="4-left-right" depart="237" />
+    
+    <vehicle id="138" type="typePassenger" route="1-right-left" depart="237" />
+    <vehicle id="139" type="typePassenger" route="2-right-left" depart="237" />
+    <vehicle id="140" type="typePassenger" route="3-right-left" depart="238" />
+    <vehicle id="141" type="typePassenger" route="4-right-left" depart="238" />
+    
+    <vehicle id="142" type="typePassenger" route="1-down-up" depart="239" />
+    <vehicle id="143" type="typePassenger" route="2-down-up" depart="239" />
+    <vehicle id="144" type="typePassenger" route="3-down-up" depart="239" />
+    <vehicle id="145" type="typePassenger" route="4-down-up" depart="240" />
+    <vehicle id="146" type="typePassenger" route="5-down-up" depart="240" />
+    
+    
+    
+    
+    <vehicle id="147" type="typePassenger" route="1-up-down" depart="285" />
+    <vehicle id="148" type="typeBus" route="2-up-down" depart="285" />
+    <vehicle id="149" type="typePassenger" route="3-up-down" depart="285" />
+    <vehicle id="150" type="typeBus" route="4-up-down" depart="285" />
+    <vehicle id="151" type="typePassenger" route="5-up-down" depart="285" />
+    
+    <vehicle id="152" type="typePassenger" route="1-left-right" depart="286" />
+    <vehicle id="153" type="typePassenger" route="2-left-right" depart="287" />
+    <vehicle id="154" type="typePassenger" route="3-left-right" depart="287" />
+    <vehicle id="155" type="typePassenger" route="4-left-right" depart="287" />
+    
+    <vehicle id="156" type="typePassenger" route="1-right-left" depart="287" />
+    <vehicle id="157" type="typePassenger" route="2-right-left" depart="287" />
+    <vehicle id="158" type="typePassenger" route="3-right-left" depart="288" />
+    <vehicle id="159" type="typePassenger" route="4-right-left" depart="288" />
+    
+    <vehicle id="160" type="typePassenger" route="1-down-up" depart="289" />
+    <vehicle id="161" type="typePassenger" route="2-down-up" depart="289" />
+    <vehicle id="162" type="typePassenger" route="3-down-up" depart="289" />
+    <vehicle id="163" type="typePassenger" route="4-down-up" depart="290" />
+    <vehicle id="164" type="typePassenger" route="5-down-up" depart="290" />
+    
+    
+    
+    
+    <vehicle id="165" type="typePassenger" route="1-up-down" depart="325" />
+    <vehicle id="166" type="typeBus" route="2-up-down" depart="325" />
+    <vehicle id="167" type="typePassenger" route="3-up-down" depart="325" />
+    <vehicle id="168" type="typeBus" route="4-up-down" depart="325" />
+    <vehicle id="169" type="typePassenger" route="5-up-down" depart="325" />
+    
+    <vehicle id="170" type="typePassenger" route="1-left-right" depart="326" />
+    <vehicle id="171" type="typePassenger" route="2-left-right" depart="327" />
+    <vehicle id="172" type="typePassenger" route="3-left-right" depart="327" />
+    <vehicle id="173" type="typePassenger" route="4-left-right" depart="327" />
+    
+    <vehicle id="174" type="typePassenger" route="1-right-left" depart="327" />
+    <vehicle id="175" type="typePassenger" route="2-right-left" depart="327" />
+    <vehicle id="176" type="typePassenger" route="3-right-left" depart="328" />
+    <vehicle id="177" type="typePassenger" route="4-right-left" depart="328" />
+    
+    <vehicle id="178" type="typePassenger" route="1-down-up" depart="329" />
+    <vehicle id="179" type="typePassenger" route="2-down-up" depart="329" />
+    <vehicle id="180" type="typePassenger" route="3-down-up" depart="329" />
+    <vehicle id="181" type="typePassenger" route="4-down-up" depart="340" />
+    <vehicle id="182" type="typePassenger" route="5-down-up" depart="340" />
+    
+    
+    
+    
+    <vehicle id="183" type="typePassenger" route="1-up-down" depart="355" />
+    <vehicle id="184" type="typeBus" route="2-up-down" depart="355" />
+    <vehicle id="185" type="typePassenger" route="3-up-down" depart="355" />
+    <vehicle id="186" type="typeBus" route="4-up-down" depart="355" />
+    <vehicle id="187" type="typePassenger" route="5-up-down" depart="355" />
+    
+    <vehicle id="188" type="typePassenger" route="1-left-right" depart="356" />
+    <vehicle id="189" type="typePassenger" route="2-left-right" depart="357" />
+    <vehicle id="190" type="typePassenger" route="3-left-right" depart="357" />
+    <vehicle id="191" type="typePassenger" route="4-left-right" depart="357" />
+    
+    <vehicle id="192" type="typePassenger" route="1-right-left" depart="357" />
+    <vehicle id="193" type="typePassenger" route="2-right-left" depart="357" />
+    <vehicle id="194" type="typePassenger" route="3-right-left" depart="358" />
+    <vehicle id="195" type="typePassenger" route="4-right-left" depart="358" />
+    
+    <vehicle id="196" type="typePassenger" route="1-down-up" depart="359" />
+    <vehicle id="197" type="typePassenger" route="2-down-up" depart="359" />
+    <vehicle id="198" type="typePassenger" route="3-down-up" depart="359" />
+    <vehicle id="199" type="typePassenger" route="4-down-up" depart="360" />
+    <vehicle id="200" type="typePassenger" route="5-down-up" depart="360" />
+    
+    
+    
+    
+    <vehicle id="201" type="typePassenger" route="1-up-down" depart="400" />
+    <vehicle id="202" type="typeBus" route="2-up-down" depart="400" />
+    <vehicle id="203" type="typePassenger" route="3-up-down" depart="400" />
+    <vehicle id="204" type="typeBus" route="4-up-down" depart="400" />
+    <vehicle id="205" type="typePassenger" route="5-up-down" depart="400" />
+    
+    <vehicle id="206" type="typePassenger" route="1-left-right" depart="402" />
+    <vehicle id="207" type="typePassenger" route="2-left-right" depart="403" />
+    <vehicle id="208" type="typePassenger" route="3-left-right" depart="403" />
+    <vehicle id="209" type="typePassenger" route="4-left-right" depart="403" />
+    
+    <vehicle id="210" type="typePassenger" route="1-right-left" depart="405" />
+    <vehicle id="211" type="typePassenger" route="2-right-left" depart="405" />
+    <vehicle id="212" type="typePassenger" route="3-right-left" depart="405" />
+    <vehicle id="213" type="typePassenger" route="4-right-left" depart="405" />
+    
+    <vehicle id="214" type="typePassenger" route="1-down-up" depart="410" />
+    <vehicle id="215" type="typePassenger" route="2-down-up" depart="410" />
+    <vehicle id="216" type="typePassenger" route="3-down-up" depart="410" />
+    <vehicle id="217" type="typePassenger" route="4-down-up" depart="411" />
+    <vehicle id="218" type="typePassenger" route="5-down-up" depart="411" />
+    
+    
+    
+    
+    <vehicle id="219" type="typePassenger" route="1-up-down" depart="435" />
+    <vehicle id="220" type="typeBus" route="2-up-down" depart="435" />
+    <vehicle id="221" type="typePassenger" route="3-up-down" depart="435" />
+    <vehicle id="222" type="typeBus" route="4-up-down" depart="435" />
+    <vehicle id="223" type="typePassenger" route="5-up-down" depart="435" />
+    
+    <vehicle id="224" type="typePassenger" route="1-left-right" depart="436" />
+    <vehicle id="225" type="typePassenger" route="2-left-right" depart="437" />
+    <vehicle id="226" type="typePassenger" route="3-left-right" depart="437" />
+    <vehicle id="227" type="typePassenger" route="4-left-right" depart="437" />
+    
+    <vehicle id="228" type="typePassenger" route="1-right-left" depart="437" />
+    <vehicle id="229" type="typePassenger" route="2-right-left" depart="437" />
+    <vehicle id="230" type="typePassenger" route="3-right-left" depart="438" />
+    <vehicle id="231" type="typePassenger" route="4-right-left" depart="438" />
+    
+    <vehicle id="232" type="typePassenger" route="1-down-up" depart="439" />
+    <vehicle id="233" type="typePassenger" route="2-down-up" depart="439" />
+    <vehicle id="234" type="typePassenger" route="3-down-up" depart="439" />
+    <vehicle id="235" type="typePassenger" route="4-down-up" depart="440" />
+    <vehicle id="236" type="typePassenger" route="5-down-up" depart="440" />
+    
+    
+    
+    
+    
+    <vehicle id="237" type="typePassenger" route="1-up-down" depart="500" />
+    <vehicle id="238" type="typeBus" route="2-up-down" depart="500" />
+    <vehicle id="239" type="typePassenger" route="3-up-down" depart="500" />
+    <vehicle id="240" type="typeBus" route="4-up-down" depart="500" />
+    <vehicle id="241" type="typePassenger" route="5-up-down" depart="500" />
+    
+    <vehicle id="242" type="typePassenger" route="1-left-right" depart="501" />
+    <vehicle id="243" type="typePassenger" route="2-left-right" depart="502" />
+    <vehicle id="244" type="typePassenger" route="3-left-right" depart="502" />
+    <vehicle id="245" type="typePassenger" route="4-left-right" depart="502" />
+    
+    <vehicle id="246" type="typePassenger" route="1-right-left" depart="502" />
+    <vehicle id="247" type="typePassenger" route="2-right-left" depart="502" />
+    <vehicle id="248" type="typePassenger" route="3-right-left" depart="503" />
+    <vehicle id="249" type="typePassenger" route="4-right-left" depart="503" />
+    
+    <vehicle id="250" type="typePassenger" route="1-down-up" depart="505" />
+    <vehicle id="251" type="typePassenger" route="2-down-up" depart="505" />
+    <vehicle id="252" type="typePassenger" route="3-down-up" depart="505" />
+    <vehicle id="253" type="typePassenger" route="4-down-up" depart="505" />
+    <vehicle id="254" type="typePassenger" route="5-down-up" depart="505" />
+    
+
+
+</routes>    
