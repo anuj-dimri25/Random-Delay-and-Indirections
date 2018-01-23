@@ -1,0 +1,41 @@
+0-id RSUExampleScenario.node[0].appl.8-id  RSUExampleScenario.node[20].veinsmobility 35.000526
+0-id RSUExampleScenario.node[0].appl.10-id  RSUExampleScenario.node[20].veinsmobility 36.000535
+0-id RSUExampleScenario.node[0].appl.11-id  RSUExampleScenario.node[20].veinsmobility 39.000544
+0-id RSUExampleScenario.node[0].appl.5-id  RSUExampleScenario.node[20].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[20].veinsmobility 42.00139
+0-id RSUExampleScenario.node[0].appl.6-id  RSUExampleScenario.node[20].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[20].veinsmobility 48.001091
+0-id RSUExampleScenario.node[0].appl.15-id  RSUExampleScenario.node[20].veinsmobility 49.000484
+0-id RSUExampleScenario.node[0].appl.13-id  RSUExampleScenario.node[20].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[20].veinsmobility 51.001695
+0-id RSUExampleScenario.node[0].appl.4-id  RSUExampleScenario.node[20].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[20].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[20].veinsmobility 54.001899
+0-id RSUExampleScenario.node[0].appl.21-id  RSUExampleScenario.node[25].veinsmobility 61.000572
+0-id RSUExampleScenario.node[0].appl.25-id  RSUExampleScenario.node[25].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[4].veinsmobility 81.000951
+0-id RSUExampleScenario.node[0].appl.34-id  RSUExampleScenario.node[4].veinsmobility 85.000548
+0-id RSUExampleScenario.node[0].appl.39-id  RSUExampleScenario.node[25].veinsmobility 94.001075
+0-id RSUExampleScenario.node[0].appl.41-id  RSUExampleScenario.node[16].veinsmobility 98.000485
+0-id RSUExampleScenario.node[0].appl.40-id  RSUExampleScenario.node[16].veinsmobility RSUExampleScenario.node[27].veinsmobility 98.000802
+0-id RSUExampleScenario.node[0].appl.63-id  RSUExampleScenario.node[43].veinsmobility 145.001053
+0-id RSUExampleScenario.node[0].appl.64-id  RSUExampleScenario.node[10].veinsmobility 145.001674
+0-id RSUExampleScenario.node[0].appl.65-id  RSUExampleScenario.node[43].veinsmobility 146.001131
+0-id RSUExampleScenario.node[0].appl.110-id  RSUExampleScenario.node[65].veinsmobility 239.000478
+0-id RSUExampleScenario.node[0].appl.122-id  RSUExampleScenario.node[40].veinsmobility 260.00079
+0-id RSUExampleScenario.node[0].appl.112-id  RSUExampleScenario.node[65].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[89].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[89].veinsmobility RSUExampleScenario.node[58].veinsmobility 270.002003
+0-id RSUExampleScenario.node[0].appl.130-id  RSUExampleScenario.node[89].veinsmobility 277.000527
+0-id RSUExampleScenario.node[0].appl.124-id  RSUExampleScenario.node[89].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[89].veinsmobility 280.001287
+0-id RSUExampleScenario.node[0].appl.133-id  RSUExampleScenario.node[89].veinsmobility 284.000486
+0-id RSUExampleScenario.node[0].appl.120-id  RSUExampleScenario.node[89].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[89].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[89].veinsmobility 285.001558
+0-id RSUExampleScenario.node[0].appl.135-id  RSUExampleScenario.node[82].veinsmobility 286.000527
+0-id RSUExampleScenario.node[0].appl.153-id  RSUExampleScenario.node[77].veinsmobility 323.00048
+0-id RSUExampleScenario.node[0].appl.161-id  RSUExampleScenario.node[86].veinsmobility 338.000482
+0-id RSUExampleScenario.node[0].appl.156-id  RSUExampleScenario.node[77].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[86].veinsmobility 338.001293
+0-id RSUExampleScenario.node[0].appl.160-id  RSUExampleScenario.node[86].veinsmobility RSUExampleScenario.node[82].veinsmobility 339.001255
+0-id RSUExampleScenario.node[0].appl.182-id  RSUExampleScenario.node[82].veinsmobility 380.000474
+0-id RSUExampleScenario.node[0].appl.183-id  RSUExampleScenario.node[82].veinsmobility 383.000792
+0-id RSUExampleScenario.node[0].appl.175-id  RSUExampleScenario.node[104].veinsmobility RSUExampleScenario.node[82].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[82].veinsmobility 389.001682
+0-id RSUExampleScenario.node[0].appl.187-id  RSUExampleScenario.node[82].veinsmobility 392.000471
+0-id RSUExampleScenario.node[0].appl.190-id  RSUExampleScenario.node[82].veinsmobility 398.000817
+0-id RSUExampleScenario.node[0].appl.191-id  RSUExampleScenario.node[82].veinsmobility 403.000761
+0-id RSUExampleScenario.node[0].appl.207-id  RSUExampleScenario.node[127].veinsmobility 432.000475
+0-id RSUExampleScenario.node[0].appl.210-id  RSUExampleScenario.node[127].veinsmobility 438.000479
+0-id RSUExampleScenario.node[0].appl.212-id  RSUExampleScenario.node[127].veinsmobility 440.000531
+0-id RSUExampleScenario.node[0].appl.209-id  RSUExampleScenario.node[145].veinsmobility RSUExampleScenario.node[127].veinsmobility 440.000822
+0-id RSUExampleScenario.node[0].appl.214-id  RSUExampleScenario.node[132].veinsmobility 444.00047
+0-id RSUExampleScenario.node[0].appl.216-id  RSUExampleScenario.node[127].veinsmobility 448.00048
