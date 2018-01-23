@@ -15,3 +15,7 @@ omnetpp
 
 /veins/example/veins/omnetpp.ini
 
+
+# omnet to traci function path- 
+src->mobility->traci->TraciConnection.cc
+
