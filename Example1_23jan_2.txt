@@ -1,0 +1,32 @@
+1-id RSUExampleScenario.node[1].appl.3-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 45.00121 6 10
+1-id RSUExampleScenario.node[1].appl.12-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 58.001544 6 21
+1-id RSUExampleScenario.node[1].appl.18-id  RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[6].veinsmobility 60.001195 6 29
+1-id RSUExampleScenario.node[1].appl.27-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[8].veinsmobility 69.001079 7 38
+1-id RSUExampleScenario.node[1].appl.42-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 82.001334 6 52
+1-id RSUExampleScenario.node[1].appl.102-id  RSUExampleScenario.node[11].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[8].veinsmobility 120.002807 6 89
+1-id RSUExampleScenario.node[1].appl.232-id  RSUExampleScenario.node[21].veinsmobility RSUExampleScenario.node[24].veinsmobility RSUExampleScenario.node[21].veinsmobility RSUExampleScenario.node[24].veinsmobility 176.001568 6 146
+1-id RSUExampleScenario.node[1].appl.254-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[24].veinsmobility 189.001028 6 158
+1-id RSUExampleScenario.node[1].appl.252-id  RSUExampleScenario.node[27].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[21].veinsmobility RSUExampleScenario.node[8].veinsmobility 189.011965 7 156
+1-id RSUExampleScenario.node[1].appl.262-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[24].veinsmobility RSUExampleScenario.node[8].veinsmobility 192.000972 7 161
+1-id RSUExampleScenario.node[1].appl.284-id  RSUExampleScenario.node[23].veinsmobility RSUExampleScenario.node[22].veinsmobility RSUExampleScenario.node[19].veinsmobility RSUExampleScenario.node[15].veinsmobility RSUExampleScenario.node[19].veinsmobility 205.003364 6 175
+1-id RSUExampleScenario.node[1].appl.299-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[19].veinsmobility RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[15].veinsmobility 215.001903 7 183
+1-id RSUExampleScenario.node[1].appl.3-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 45.00121 6 10
+1-id RSUExampleScenario.node[1].appl.12-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 58.001544 6 21
+1-id RSUExampleScenario.node[1].appl.18-id  RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[6].veinsmobility 60.001195 6 29
+1-id RSUExampleScenario.node[1].appl.27-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[8].veinsmobility 69.001079 7 38
+1-id RSUExampleScenario.node[1].appl.42-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 82.001334 6 52
+1-id RSUExampleScenario.node[1].appl.52-id  RSUExampleScenario.node[6].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 88.001043 7 58
+1-id RSUExampleScenario.node[1].appl.53-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 90.00126 6 60
+1-id RSUExampleScenario.node[1].appl.56-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[8].veinsmobility 96.000956 6 61
+1-id RSUExampleScenario.node[1].appl.69-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[2].veinsmobility 100.00212 7 68
+1-id RSUExampleScenario.node[1].appl.164-id  207.012703 7 123
+1-id RSUExampleScenario.node[1].appl.221-id  RSUExampleScenario.node[15].veinsmobility RSUExampleScenario.node[19].veinsmobility RSUExampleScenario.node[15].veinsmobility RSUExampleScenario.node[20].veinsmobility 211.001585 6 164
+1-id RSUExampleScenario.node[1].appl.138-id  RSUExampleScenario.node[8].veinsmobility 215.016502 7 109
+1-id RSUExampleScenario.node[1].appl.272-id  RSUExampleScenario.node[15].veinsmobility RSUExampleScenario.node[20].veinsmobility RSUExampleScenario.node[15].veinsmobility RSUExampleScenario.node[8].veinsmobility 224.002424 6 194
+1-id RSUExampleScenario.node[1].appl.291-id  RSUExampleScenario.node[20].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[8].veinsmobility 258.00143 7 209
+1-id RSUExampleScenario.node[1].appl.311-id  RSUExampleScenario.node[0].veinsmobility 263.00502 6 229
+1-id RSUExampleScenario.node[1].appl.339-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[0].veinsmobility RSUExampleScenario.node[7].veinsmobility 286.002834 6 254
+1-id RSUExampleScenario.node[1].appl.358-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[7].veinsmobility RSUExampleScenario.node[8].veinsmobility 296.00134 7 266
+1-id RSUExampleScenario.node[1].appl.362-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[16].veinsmobility 300.004031 6 270
+1-id RSUExampleScenario.node[1].appl.377-id  RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[7].veinsmobility RSUExampleScenario.node[8].veinsmobility RSUExampleScenario.node[16].veinsmobility 314.002279 6 283
+1-id RSUExampleScenario.node[1].appl.380-id  RSUExampleScenario.node[1].veinsmobility RSUExampleScenario.node[16].veinsmobility RSUExampleScenario.node[0].veinsmobility 315.00485 7 285
