@@ -244,6 +244,38 @@ for elem1 in cc1:
 			cc32.append([elem1,elem2])
 
 print count32
+
+
+points=[[196.8977,991.75],
+[119.944,991.75],
+[418.804,991.75],
+[495.05,869.303],
+[498.35,758.344],
+[498.35,786.07],
+[498.35,702.875],
+[498.35,591.906],
+[498.35,520.628],
+[619.837,498.35]]
+
+
+cc=[cc1,cc2,cc3,cc4,cc5,cc6,cc7,cc8,cc9,cc10]
+x=[]
+y=[]
+for ccc1 in cc:
+	for elem in ccc1:
+		#print elem[0]
+		x.append(elem[0])
+		y.append(elem[1])		
+	plt.scatter(x,y)
+	plt.plot(points[i][0],points[i][1],'ro')
+	plt.ylim(ymax=1100,ymin=-100)
+	plt.xlim(xmax=2100,xmin=-100)
+	i=i+1	
+	plt.show()		
+
+
+
+
 	
 x=[]
 y=[]		
