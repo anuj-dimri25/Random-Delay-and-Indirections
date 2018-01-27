@@ -1,5 +1,7 @@
 from math import fabs
 import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
 
 creation_points=[[516.75,39.95],
 [516.75,101.438],
@@ -337,6 +339,11 @@ for i in range(len(cc)-1,-1,-1):
 	calc_points.append(cc[i])
 
 
+calc_points2=[]
+for i in range(len(cc)-1,-1,-1):
+	calc_points2.append(cc[i])
+
+
 ccc1=[]
 for i in range(len(cc)-1,-1,-1):
 	ccc1.append(cc[i])
@@ -347,6 +354,8 @@ for i in range(len(cc)-1,-1,-1):
 print "number of points before"
 for elem in calc_points:
 	print len(elem),
+
+
 
 print "wvrg"	
 
@@ -379,7 +388,7 @@ print "count"
 print count
 
 
-
+'''
 ###### plots ######
 x=[]
 y=[]
@@ -408,6 +417,18 @@ for i in range(len(ccc1)):
 	x2=[]
 	y2=[]	
 	plt.show()		
+'''
 
+xx=[]
+
+for i in range(len(calc_points2)):
+	print len(calc_points[i])/float(len(calc_points2[i]))
+	xx.append(len(calc_points[i])/float(len(calc_points2[i])))
+
+print min(xx), max(xx), np.mean(xx), np.median(xx), stats.mode(xx)
+xx.reverse()
+plt.plot(xx)
+plt.ylim(ymax=1.2,ymin=0)
+plt.show()
 
 
