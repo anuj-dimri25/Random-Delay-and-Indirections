@@ -1,0 +1,516 @@
+Last login: Tue Jan 30 16:59:16 on ttys004
+Anujs-MBP:~ anujdimri$ python distance_small_26jan.py 
+[784, 546, 372, 386, 382, 465, 367, 592, 1100, 1182, 352, 455, 477, 428, 517, 837, 388, 983, 232, 643, 470, 597, 633, 670, 723, 1086, 875, 797, 557, 517, 517, 1197, 1108, 1197, 757, 1197, 877, 1197, 417, 1197, 512, 372, 585, 395, 487, 580, 1197, 1018, 1197, 480]
+50
+number of points before
+480 1197 1018 1197 580 487 395 585 372 512 1197 417 1197 877 1197 757 1197 1108 1197 517 517 557 797 875 1086 723 670 633 597 470 643 232 983 388 837 517 428 477 455 352 1182 1100 592 367 465 382 386 372 546 784 wvrg
+distance 250
+1197 730
+distance 650
+1018 1018
+distance 50
+1197 1038
+distance 800
+580 580
+distance 275
+487 487
+distance 150
+395 395
+distance 250
+585 495
+distance 150
+372 372
+distance 100
+512 435
+distance 500
+1197 924
+distance 175
+417 417
+distance 75
+1197 492
+distance 675
+877 877
+distance 75
+1197 996
+distance 150
+757 757
+distance 75
+1197 877
+distance 175
+1108 1085
+distance 25
+1197 1125
+distance 75
+517 517
+distance 650
+517 517
+distance 50
+557 557
+distance 50
+797 611
+distance 125
+875 745
+distance 75
+1086 865
+distance 0
+723 658
+distance 75
+670 658
+distance 75
+633 633
+distance 25
+597 597
+distance 1050
+470 470
+distance 225
+643 595
+distance 100
+232 232
+distance 150
+983 352
+distance 525
+388 388
+distance 850
+837 837
+distance 1225
+517 517
+distance 475
+428 428
+distance 825
+477 477
+distance 350
+455 387
+distance 75
+352 335
+distance 375
+1182 710
+distance 25
+1100 735
+distance 100
+592 526
+distance 1600
+367 367
+distance 75
+465 427
+distance 275
+382 370
+distance 475
+386 386
+distance 275
+372 372
+distance 500
+546 546
+distance 75
+784 605
+number of points after
+480 730 1018 1038 580 487 395 495 372 435 924 417 492 877 996 757 877 1085 1125 517 517 557 611 745 865 658 658 633 597 470 595 232 352 388 837 517 428 477 387 335 710 735 526 367 427 370 386 372 546 605 count
+[61471, 339082, 22338, 366714, 63929, 26962, 42939, 23963, 16108, 126614, 34397, 13907, 228239, 29377, 54637, 25657, 73643, 12165, 18143, 176807, 11487, 12483, 36149, 25283, 658, 19843, 20218, 6677, 248194, 47735, 10407, 15867, 65565, 228107, 423585, 107909, 183710, 49660, 10464, 68683, 7935, 21505, 188455, 12492, 36835, 67106, 39546, 89078, 17950]
+^CTraceback (most recent call last):
+  File "distance_small_26jan.py", line 410, in <module>
+    plt.show()		
+  File "/Users/anujdimri/anaconda/lib/python2.7/site-packages/matplotlib/pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "/Users/anujdimri/anaconda/lib/python2.7/site-packages/matplotlib/backend_bases.py", line 193, in __call__
+    self.mainloop()
+  File "/Users/anujdimri/anaconda/lib/python2.7/site-packages/matplotlib/backends/backend_tkagg.py", line 71, in mainloop
+    Tk.mainloop()
+  File "/Users/anujdimri/anaconda/lib/python2.7/lib-tk/Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+KeyboardInterrupt
+Anujs-MBP:~ anujdimri$ cd Random-Delay-and-Indirections/
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ python distance_small_26jan.py 
+[480, 336, 212, 207, 214, 268, 198, 370, 826, 890, 198, 254, 264, 252, 276, 515, 225, 636, 132, 416, 274, 326, 384, 392, 432, 733, 622, 485, 303, 276, 276, 977, 691, 995, 433, 963, 545, 979, 257, 947, 314, 212, 358, 239, 285, 351, 854, 654, 911, 255]
+50
+number of points before
+255 911 654 854 351 285 239 358 212 314 947 257 979 545 963 433 995 691 977 276 276 303 485 622 733 432 392 384 326 274 416 132 636 225 515 276 252 264 254 198 890 826 370 198 268 214 207 212 336 480 wvrg
+distance 250
+911 474
+distance 650
+654 559
+distance 50
+854 519
+distance 800
+351 351
+distance 275
+285 285
+distance 150
+239 239
+distance 250
+358 238
+distance 150
+212 187
+distance 100
+314 229
+distance 500
+947 434
+distance 175
+257 218
+distance 75
+979 240
+distance 675
+545 456
+distance 75
+963 394
+distance 150
+433 365
+distance 75
+995 399
+distance 175
+691 608
+distance 25
+977 612
+distance 75
+276 221
+distance 650
+276 276
+distance 50
+303 289
+distance 50
+485 288
+distance 125
+622 303
+distance 75
+733 329
+distance 0
+432 223
+distance 75
+392 225
+distance 75
+384 236
+distance 25
+326 233
+distance 1050
+274 274
+distance 225
+416 356
+distance 100
+132 95
+distance 150
+636 129
+distance 525
+225 125
+distance 850
+515 419
+distance 1225
+276 276
+distance 475
+252 252
+distance 825
+264 264
+distance 350
+254 122
+distance 75
+198 128
+distance 375
+890 424
+distance 25
+826 430
+distance 100
+370 219
+distance 1600
+198 198
+distance 75
+268 220
+distance 275
+214 176
+distance 475
+207 207
+distance 275
+212 212
+distance 500
+336 289
+distance 75
+480 336
+number of points after
+255 474 559 519 351 285 239 238 187 229 434 218 240 456 394 365 399 608 612 221 276 289 288 303 329 223 225 236 233 274 356 95 129 125 419 276 252 264 122 128 424 430 219 198 220 176 207 212 289 336 count
+[18672, 93955, 6615, 62036, 16182, 7849, 10455, 6135, 4172, 30797, 8664, 4023, 30999, 6355, 10446, 6507, 19883, 4696, 3478, 25159, 3628, 3500, 8381, 5923, 223, 4381, 4526, 1859, 46674, 15352, 2066, 2583, 5033, 26495, 90303, 22154, 48859, 7609, 1779, 15575, 3390, 5642, 36646, 3580, 8000, 17010, 9072, 21676, 5635]
+1.0
+0.520307354555
+0.854740061162
+0.607728337237
+1.0
+1.0
+1.0
+0.664804469274
+0.882075471698
+0.729299363057
+0.458289334741
+0.848249027237
+0.245148110317
+0.836697247706
+0.409138110073
+0.842956120092
+0.401005025126
+0.87988422576
+0.626407369498
+0.800724637681
+1.0
+0.953795379538
+0.59381443299
+0.487138263666
+0.448840381992
+0.516203703704
+0.573979591837
+0.614583333333
+0.71472392638
+1.0
+0.855769230769
+0.719696969697
+0.202830188679
+0.555555555556
+0.81359223301
+1.0
+1.0
+1.0
+0.48031496063
+0.646464646465
+0.476404494382
+0.520581113801
+0.591891891892
+1.0
+0.820895522388
+0.822429906542
+1.0
+1.0
+0.860119047619
+0.7
+0.202830188679 1.0 0.731541580802 0.765012000369 ModeResult(mode=array([ 1.]), count=array([12]))
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ 
+  [Restored Feb 2, 2018 at 6:51:01 PM]
+Last login: Fri Feb  2 18:50:51 on console
+Restored session: Fri Feb  2 18:44:11 MST 2018
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ 
+  [Restored Feb 4, 2018 at 11:27:29 AM]
+Last login: Sun Feb  4 11:27:29 on ttys006
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add approach.*
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git commit -m "approach image"
+[master 6ba97db] approach image
+ 2 files changed, 30439 insertions(+)
+ create mode 100644 approach.eps
+ create mode 100644 approach.svg
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.70 MiB | 2.58 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/anuj-dimri25/Random-Delay-and-Indirections.git
+   65cc49c..6ba97db  master -> master
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add console_output_\>0.2\<0.8_id\=0.28_26jan.txt 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git commit -m "output of distance_small_26jan.py >=0.2 <=0.8 0.28" 
+[master e34599e] output of distance_small_26jan.py >=0.2 <=0.8 0.28
+ 1 file changed, 156 insertions(+)
+ create mode 100644 console_output_>0.2<0.8_id=0.28_26jan.txt
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.43 KiB | 1.43 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/anuj-dimri25/Random-Delay-and-Indirections.git
+   6ba97db..e34599e  master -> master
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add console_output_\>0.2\<0.8_id\=0.42_5feb.txt 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git commit -m "console output 5 feb id=0.42 (6,7,8)"
+[master 21310e0] console output 5 feb id=0.42 (6,7,8)
+ 1 file changed, 145 insertions(+)
+ create mode 100644 console_output_>0.2<0.8_id=0.42_5feb.txt
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.30 KiB | 1.30 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+gTo https://github.com/anuj-dimri25/Random-Delay-and-Indirections.git
+   e34599e..21310e0  master -> master
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add ratio_distance5feb_\(6\,7\,8\)ID\=0.42_d\>\=0.2and\<\=0.8.png 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git commit -m "ratio plot"
+[master b940c42] ratio plot
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ratio_distance5feb_(6,7,8)ID=0.42_d>=0.2and<=0.8.png
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 29.90 KiB | 14.95 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/anuj-dimri25/Random-Delay-and-Indirections.git
+   21310e0..b940c42  master -> master
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add distance_small_5feb.py 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add console_output_NO_NEGATIVE_\>0.2\<0.8_id\=0.42_5feb.txt 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add ratio_distance5feb_NO_NEGATIVE_\(6\,7\,8\)ID\=0.42_d\>\=0.2and\<\=0.8.png 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git commit -m "ID 0.42, no negative distance"
+[master 928cdc8] ID 0.42, no negative distance
+ 3 files changed, 614 insertions(+)
+ create mode 100644 console_output_NO_NEGATIVE_>0.2<0.8_id=0.42_5feb.txt
+ create mode 100644 distance_small_5feb.py
+ create mode 100644 ratio_distance5feb_NO_NEGATIVE_(6,7,8)ID=0.42_d>=0.2and<=0.8.png
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 32.33 KiB | 10.78 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/anuj-dimri25/Random-Delay-and-Indirections.git
+   b940c42..928cdc8  master -> master
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git add distances_5feb_0.428ID\(6\,7\,8\)_150m_0.1msg_gen_mindelay15.xlsx 
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git commit -m "distance file 5 feb id=0.42, negatives removed-- see bottom"
+[master 687009e] distance file 5 feb id=0.42, negatives removed-- see bottom
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 distances_5feb_0.428ID(6,7,8)_150m_0.1msg_gen_mindelay15.xlsx
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 24.58 KiB | 8.19 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/anuj-dimri25/Random-Delay-and-Indirections.git
+   928cdc8..687009e  master -> master
+Anujs-MBP:Random-Delay-and-Indirections anujdimri$ python distance_small_5feb_id014.py 
+[165, 677, 268, 189, 493, 937, 578, 586, 394, 341, 859, 301, 350, 252, 252, 348, 284, 245, 304, 391, 251, 287, 909, 167, 260, 182, 966, 629, 336, 997, 447, 757, 205, 136, 696, 919, 268, 934, 846, 829, 684, 151, 269, 439]
+44
+number of points before
+439 269 151 684 829 846 934 268 919 696 136 205 757 447 997 336 629 966 182 260 167 909 287 251 391 304 245 284 348 252 252 350 301 859 341 394 586 578 937 493 189 268 677 165 wvrg
+distance 175
+269 269
+distance 975
+151 151
+distance 50
+684 191
+distance 200
+829 246
+distance 125
+846 321
+distance 450
+934 631
+distance 0
+268 218
+distance 550
+919 466
+distance 200
+696 378
+distance 100
+136 136
+distance 350
+205 205
+distance 475
+757 405
+distance 525
+447 358
+distance 725
+997 997
+distance 1100
+336 336
+distance 25
+629 264
+distance 150
+966 375
+distance 175
+182 125
+distance 125
+260 138
+distance 75
+167 101
+distance 125
+909 161
+distance 700
+287 165
+distance 275
+251 179
+distance 575
+391 372
+distance 175
+304 304
+distance 325
+245 245
+distance 350
+284 284
+distance 75
+348 315
+distance 175
+252 252
+distance 350
+252 252
+distance 175
+350 182
+distance 25
+301 115
+distance 50
+859 94
+distance 475
+341 321
+distance 300
+394 394
+distance 100
+586 386
+distance 125
+578 447
+distance 25
+937 429
+distance 750
+493 493
+distance 2575
+189 189
+distance 375
+268 264
+distance 200
+677 361
+distance 700
+165 165
+number of points after
+439 269 151 191 246 321 631 218 466 378 136 205 405 358 997 336 264 375 125 138 101 161 165 179 372 304 245 284 315 252 252 182 115 94 321 394 386 447 429 493 189 264 361 165 count
+[10979, 28371, 2170, 8439, 7646, 47181, 218, 31653, 16812, 3392, 8616, 27720, 30908, 126456, 160409, 1976, 12007, 5981, 3712, 2224, 3800, 14689, 6052, 25082, 13495, 22853, 20698, 5154, 8844, 16543, 5616, 758, 551, 6657, 20394, 8941, 10734, 3200, 82658, 56487, 13187, 10905, 23343]
+1.0
+1.0
+1.0
+0.279239766082
+0.296743063932
+0.379432624113
+0.675588865096
+0.813432835821
+0.507072905332
+0.543103448276
+1.0
+1.0
+0.53500660502
+0.800894854586
+1.0
+1.0
+0.419713831479
+0.388198757764
+0.686813186813
+0.530769230769
+0.604790419162
+0.177117711771
+0.574912891986
+0.713147410359
+0.951406649616
+1.0
+1.0
+1.0
+0.905172413793
+1.0
+1.0
+0.52
+0.382059800664
+0.109429569267
+0.941348973607
+1.0
+0.658703071672
+0.773356401384
+0.457844183565
+1.0
+1.0
+0.985074626866
+0.533234859675
+1.0
+0.109429569267 1.0 0.730536567238 0.787125627985 ModeResult(mode=array([ 1.]), count=array([16]))
