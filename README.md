@@ -19,3 +19,11 @@ omnetpp
 # omnet to traci function path- 
 src->mobility->traci->TraciConnection.cc
 
+# TODO
+Message contents should be source ID and location in lat/lon
+
+Give uploader also some time to move away from its original location
+
+OSMNX street view for adversary
+
+For each edge set of possible edges in previous circle (intersection)
