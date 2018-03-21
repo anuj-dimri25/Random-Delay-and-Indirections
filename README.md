@@ -20,10 +20,16 @@ omnetpp
 src->mobility->traci->TraciConnection.cc
 
 # TODO
-Message contents should be source ID and location in lat/lon
+Message contents should be source ID and location in lat/lon (done)
 
 Give uploader also some time to move away from its original location
 
-OSMNX street view for adversary
+OSMNX street view for adversary (done)
 
-For each edge set of possible edges in previous circle (intersection)
+For each edge set of possible edges in previous circle (intersection) (done)
+
+Graph pruning (done)
+
+process data based on uploader id 
+
+try different RD and ID
