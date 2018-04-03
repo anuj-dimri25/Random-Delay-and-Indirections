@@ -39,3 +39,17 @@ Visualize ROI [done]
 Impelement epsilon levels
 
 When to again start uploading [no intersection b/w graph]
+
+# LIST OF EXPERIMENTS
+
+Whole city tun from 35550 sec onwards
+
+For ID = 0.14 to 1 same setting as 11 uploads corresponding to 26 March scenario
+
+Random Delay increase and run above above experiment.
+
+5 RD and 5 ID --- total 25 graphs
+
+Do same experiments for evening peak hours also.
+
+
