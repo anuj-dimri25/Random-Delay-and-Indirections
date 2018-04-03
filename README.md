@@ -36,7 +36,7 @@ try different RD and ID
 
 Visualize ROI [done]
 
-Impelement epsilon levels
+Impelement epsilon levels (done)
 
 When to again start uploading [no intersection b/w graph]
 
