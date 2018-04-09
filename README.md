@@ -53,3 +53,12 @@ Random Delay increase and run above above experiment.
 Do same experiments for evening peak hours also.
 
 
+# ID values
+
+0.42—6,7,8
+
+0.28–5,9
+
+0.14-7
+
+
