@@ -40,6 +40,14 @@ Impelement epsilon levels (done)
 
 When to again start uploading [no intersection b/w graph]
 
+Automate script
+
+Adv attack for 200 vehicles -- how to put results
+
+300 m transmission range
+
+Evening peak hours
+
 # LIST OF EXPERIMENTS
 
 Whole city run from 35550 sec onwards
@@ -51,6 +59,9 @@ Random Delay increase and run above above experiment.
 5 RD and 5 ID --- total 25 graphs
 
 Do same experiments for evening peak hours also.
+
+300 m transmission range for inner city and highway--- do for 500 too ?
+
 
 
 # ID values for RD 4-10
