@@ -1,6 +1,14 @@
 # Random-Delay-and-Indirections
 Preserving privacy of the users using random delays and indirections. The random delays are introduced for each message in a time gap of 1-10 seconds. Each node can generate new message or forward the duplicate message which it received (after adding it's own random delay).
 
+# LOT OF REDUNDANT FILES. NEED TO UPDATE.
+
+# Simulators used
+
+Omnetpp, SUMO, VEINS
+
+24 hours Luxembourg city scenatio used.
+
 # To run network simulator-
 
 cd /Users/anujdimri/Downloads/simulations/hello-sumo/omnetpp-5.1.1 <br />
@@ -19,66 +27,8 @@ omnetpp
 # omnet to traci function path- 
 src->mobility->traci->TraciConnection.cc
 
-# TODO
-Message contents should be source ID and location in lat/lon (done)
-
-Give uploader also some time to move away from its original location (done)
-
-OSMNX street view for adversary (done)
-
-For each edge set of possible edges in previous circle (intersection) (done)
-
-Graph pruning (done)
-
-process data based on uploader id (done)
-
-try different RD and ID
-
-Visualize ROI [done]
-
-Impelement epsilon levels (done)
-
-When to again start uploading [no intersection b/w graph]
-
-Automate script
-
-Adv attack for 200 vehicles -- how to put results
-
-300 m transmission range
-
-Evening peak hours
-
-# LIST OF EXPERIMENTS
-
-Whole city run from 35550 sec onwards
-
-For ID = 0.14 to 1 same setting as 11 uploads corresponding to 26 March scenario
-
-Random Delay increase and run above above experiment.
-
-5 RD and 5 ID --- total 25 graphs
-
-Do same experiments for evening peak hours also.
-
-300 m transmission range for inner city and highway--- do for 500 too ?
 
 
-
-# ID values for RD 4-10
-
-0.14-7
-
-0.28–5,9
-
-0.42—6,7,8
-
-0.57-5,6,7,9
-
-0.72-5,6,7,9,10
-
-0.857-4,5,6,7,9,10
-
-1.00-4,5,6,7,8,9,10
 
 
 
